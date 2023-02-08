@@ -29,12 +29,12 @@ for (let i = 0; i < persons.length; i++) {
     // document.getElementById("box").innerHTML += val.hobby + "<br>";
 
     document.getElementById("box").innerHTML += `
-<div class="card" style="width: 18rem; height: 13rem;">
+<div class="card" style="width: 18rem; height: 13rem; background-color: rgb(239, 236, 236)">
   <div class="card-body">
     <h5 class="card-title">${persons[i].fullName()}</h5>
     <h6 class="card-subtitle mb-2 text-muted">${persons[i].age}</h6>
     <p class="card-text">${persons[i].fullName()} is ${persons[i].age} years old and likes ${persons[i].hobby}.</p>
-    <a href="#" class="btn btn-primary">Print in the console</a>
+    <a href="#" class="btn btn-secondary">Print in the console</a>
   </div>
 </div>
 `;
@@ -75,7 +75,7 @@ const animals = [
 
 for (let val of animals) {
     document.getElementById("box2").innerHTML += `
-<div class="card" style="width: 18rem; height: 13rem;">
+<div class="card" style="width: 18rem; height: 13rem; background-color: rgb(239, 236, 236)">
   <div class="card-body">
     <h5 class="card-title" style="text-transform: capitalize">${val.name()}</h5>
     <h6 class="card-subtitle mb-2 text-muted" style="text-transform: capitalize">${val.type}</h6>
@@ -116,7 +116,7 @@ const cars = [
 
 for (let val of cars) {
     document.getElementById("box3").innerHTML += `
-<div class="card" style="width: 18rem; height: 13rem;">
+<div class="card" style="width: 18rem; height: 13rem; background-color: rgb(239, 236, 236)">
   <div class="card-body">
     <h5 class="card-title">${val.brand} </h5>
     <h6 class="card-subtitle mb-2 text-muted">${val.model}</h6>
